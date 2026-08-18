@@ -8,4 +8,13 @@ vim.opt.clipboard = "unnamedplus"
 vim.opt.smartindent = true
 vim.opt.incsearch = true
 vim.opt.termguicolors = true
+
+
+
+require("nightfox").setup({
+	options = {
+		transparent = true;
+	}
+})
+
 vim.cmd("colorscheme carbonfox")
